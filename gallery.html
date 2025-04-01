@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa;
+            color: #01579b;
+        }
+        header {
+            background-color: #0288d1;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+        nav {
+            background-color: #0277bd;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <header>Travel Adventure Gallery</header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="destination.html">Destinations</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="container">
+        <h2>Our Stunning Travel Photos</h2>
+        <p>Enjoy a collection of beautiful images from around the world. These photos showcase the wonders of nature, vibrant cities, and unforgettable moments from our travels.</p>
+        
+        <div class="gallery">
+            <img src="Eiffel-Tower.jpg" alt="Image 1">
+            <img src="Louvre-Museum.jpg" alt="Image 2">
+            <img src="Seine-River.jpg" alt="Image 3">
+            <img src="Fushimi-Inari-Shrine.jpg" alt="Image 4">
+            <img src="Arashiyama-Bamboo-Forest.jpg" alt="Image 5">
+            <img src="Kinkaku-ji-Temple.jpg" alt="Image 6">
+			<img src="Oia-Village.jpg" alt="Image 7">
+            <img src="Santorini-Beach.jpg" alt="Image 8">
+			<img src="Sunset-View.jpg" alt="Image 9">
+            <img src="Machu-Picchu-Ruins.jpg" alt="Image 10">
+			<img src="Huayna-Picchu.jpg" alt="Image 11">
+            <img src="Inca-Trail.jpg" alt="Image 12">
+        </div>
+    </div>
+</body>
+</html>
